@@ -30,7 +30,7 @@ app.use("/api/product", ProductRouter);
 app.use("/api/cart", CartRouter);
 app.use("/", viewsRouter);
 
-mongoose.connect("mongodb+srv://octavioreca1:octaroco10@cluster0.e63otbo.mongodb.net/ecommerce?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://octavioreca1:octavio123@cluster0.e63otbo.mongodb.net/ecommerce?retryWrites=true&w=majority")
 
 socketServer.on("connection", (socket) => {
     console.log("Nueva Conexión!");
